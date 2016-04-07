@@ -1,5 +1,7 @@
 # lxc-e-deklaracje
-Jak utworzyć kontener zawierający program e-Deklaracje 2016 do rozliczeń podatkowych za rok 2015
+Jak utworzyć kontener zawierający program e-Deklaracje 2016 do rozliczeń podatkowych za rok 2015.
+
+Autor nie ponosi odpowiedzialności za nieprawidłową instalację programu do rozliczeń (w szczególności błędów rozliczeń wynikłych z nieprawidłowego działania). Wykorzystanie instrukcji na własną odpowiedzialność.
 
 ## Stworzenie kontenera
 - Instalujemy lxc
