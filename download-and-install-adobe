@@ -1,0 +1,11 @@
+#!/bin/bash
+dpkg --add-architecture i386
+apt update && apt upgrade -y
+apt install  libxslt1.1 libgtk2.0-0:i386 libstdc++6:i386 libnss3-1d:i386 lib32nss-mdns libxml2:i386 libxslt1.1:i386 \
+            libcanberra-gtk-module:i386 gtk2-engines-murrine:i386 libqt4-qt3support:i386 libgnome-keyring0:i386 wget xorg -y
+wget ftp://ftp.adobe.com/pub/adobe/reader/unix/9.x/9.5.5/enu/AdbeRdr9.5.5-1_i386linux_enu.deb
+wget http://airdownload.adobe.com/air/lin/download/latest/AdobeAIRInstaller.bin
+wget http://www.finanse.mf.gov.pl/documents/766655/1196444/e-DeklaracjeDesktop.air
+ln -s /usr/lib/i386-linux-gnu/libgnome-keyring.so.0 /usr/lib/libgnome-keyring.so.0
+ln -s /usr/lib/i386-linux-gnu/libgnome-keyring.so.0.2.0 /usr/lib/libgnome-keyring.so.0.2.0
+chmod +x AdobeAIRInstaller.bin
