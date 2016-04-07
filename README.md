@@ -47,8 +47,8 @@ Należy umieścić [skrypt](download-and-install-adobe) w kontenerze i uruchomi�
 sudo ./download-and-install
 ```
 
-## Alternatywa: Ręczne wykonane wszystkich komend
-- Przechodzimy na konto root na kontenerze
+## Alternatywa: Ręczne wykonanie wszystkich komend
+- Przechodzimy na konto root w kontenerze
 
 ```
 sudo su -
@@ -100,7 +100,7 @@ wget http://airdownload.adobe.com/air/lin/download/latest/AdobeAIRInstaller.bin
 dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
 ```
 
-- Instalujemy Adobe Air
+- Nadajemy uprawnienia wykonywalne do Adobe Air
 
 ```
 chmod +x AdobeAIRInstaller.bin
