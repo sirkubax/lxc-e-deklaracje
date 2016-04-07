@@ -25,7 +25,7 @@ sudo lxc-start -n e-deklaracje
 -  Weryfikujemy adres IP kontenera
 
 ```
-lxc-info --name e-deklaracje  | grep IP
+sudo lxc-info --name e-deklaracje  | grep IP
 ```
 
 - Logujemy się przez ssh na maszynę - domyślne hasło `ubuntu`
