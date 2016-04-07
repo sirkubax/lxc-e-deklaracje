@@ -74,6 +74,14 @@ apt install libxslt1.1 libgtk2.0-0:i386 libstdc++6:i386 libnss3-1d:i386 lib32nss
                libgnome-keyring0:i386 wget xorg -y
 ```
 
+- Tworzymy dowiązania symboliczne
+
+```
+ln -s /usr/lib/i386-linux-gnu/libgnome-keyring.so.0 /usr/lib/libgnome-keyring.so.0
+ln -s /usr/lib/i386-linux-gnu/libgnome-keyring.so.0.2.0 /usr/lib/libgnome-keyring.so.0.2.0
+```
+
+
 - Ściągamy paczkę Adobe Reader
 
 ```
