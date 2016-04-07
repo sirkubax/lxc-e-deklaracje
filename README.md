@@ -1,6 +1,7 @@
 # lxc-e-deklaracje
 Jak utworzyć kontener zawierający program do rozliczeń podatkowych 2015
 
+## Stworzenie kontenera
 - Instalujemy lxc
 
 ```
@@ -37,6 +38,14 @@ ssh [cnt_ip] -l ubuntu
 passwd
 ```
 
+## Alternatywa: Wykorzystanie skryptu
+Należy umieścić [skrypt](download-and-install-adobe) w kontenerze i uruchomić go z uprawnieniami root 
+
+```
+sudo ./download-and-install
+```
+
+## Alternatywa: Ręczne wykonane wszystkich komend
 - Przechodzimy na konto root na kontenerze
 
 ```
@@ -87,6 +96,7 @@ dpkg -i AdbeRdr9.5.5-1_i386linux_enu.deb
 chmod +x AdobeAIRInstaller.bin
 ```
 
+## Finalizacja instalacji
 - Wylogowujemy się z maszyny
 
 - Logujemy się jeszcze raz z Forward X
