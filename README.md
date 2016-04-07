@@ -141,13 +141,13 @@ xauth merge /home/ubuntu/.Xauthority
 
 - Wyłączamy aplikacje i opuszczamy konto roota
 
-- Na użytkowniku ubuntu uruchamiany e-Deklaracje
+- Na użytkowniku `ubuntu` uruchamiany e-Deklaracje
 
 ```
 /opt/e-Deklaracje/bin/e-Deklaracje
 ```
 
-- W przyszłości, aby uruchomić program wystarczy polecenie z hosta - przy włązonym kontenerze
+- W przyszłości, aby uruchomić program wystarczy polecenie z hosta - przy włączonym kontenerze
 
 ```
 ssh [cnt_ip] -l ubuntu -X /opt/e-Deklaracje/bin/e-Deklaracje
