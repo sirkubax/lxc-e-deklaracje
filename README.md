@@ -1,4 +1,4 @@
-# lxc-e-deklaracje
+.appdata/e-Deklaracje# lxc-e-deklaracje
 Jak utworzyć kontener zawierający program e-Deklaracje 2016 do rozliczeń podatkowych za rok 2015.
 
 Autor nie ponosi odpowiedzialności za nieprawidłową instalację programu do rozliczeń (w szczególności błędów rozliczeń wynikłych z nieprawidłowego działania). Wykorzystanie instrukcji na własną odpowiedzialność.
@@ -146,6 +146,8 @@ xauth merge /home/ubuntu/.Xauthority
 ```
 
 - Wyłączamy aplikacje i opuszczamy konto roota
+
+- [Opcjonalnie jeśli mamy z lat poprzednich katalog z ustawieniami ~/.appdata/e-Deklaracje* można go teraz skopiować na maszynę lxc w to samo miejsce, to jest ~/.appdata]
 
 - Na użytkowniku `ubuntu` uruchamiany e-Deklaracje
 
