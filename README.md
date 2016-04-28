@@ -161,3 +161,14 @@ xauth merge /home/ubuntu/.Xauthority
 ```
 ssh [cnt_ip] -l ubuntu -X /opt/e-Deklaracje/bin/e-Deklaracje
 ```
+
+Możliwe problemy:
+
+- 'Adobe Reader w wersji 8.1.4 lub wyższej'
+Jedno z możliwych rozwiązań: http://ubuntuhandbook.org/index.php/2013/09/ubuntu-13-10-quick-tip-install-adobe-reader/
+
+```
+sudo apt-get install gdebi
+
+sudo gdebi AdbeRdr9.5.5-1_i386linux_enu.deb
+```
