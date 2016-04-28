@@ -108,6 +108,7 @@ chmod +x AdobeAIRInstaller.bin
 
 ## Finalizacja instalacji
 - Wylogowujemy się z maszyny
+
 - Ustawiamy w ~/.ssh/config (zamiast [cnt_ip] mozna wpisać *)
 ```
   Host [cnt_ip]
